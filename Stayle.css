@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+.myimg {
+  width: 65px ;
+  float: left;
+  height: 58px;
+  padding: 1px 30px;
+  font-size: 3em;
+}  
+/*--------------------------------------------*/
+.menu {
+  box-shadow: -1px 10px 1px #e7ffb4;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #b5f132;
+  color: black;
+  height: 60px;
+  width: 1349px;
+}
+.menu #logo {
+  float: left;
+  height: 80px;
+  padding: 0.1px 0px;
+  font-size: 3.5em;
+  line-height: 54px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu > ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+.menu > ul > li {
+  float: left
+}
+.menu-items {
+  display: inline-block;
+  padding: 15px 40px;
+  line-height: 30px;
+  color: rgb(44, 44, 44);
+  text-transform: none;
+  text-decoration: none;
+  font-size: 23.5px;
+}
+.menu-items:hover {
+  background-color: #ffffff;
+  color: rgb(134, 92, 7)                                                                                        ;
+}
+/*------------------ .sub-contect ---------------------------*/
+.sub-contect{
+  position: absolute;
+  top: 70px;
+  overflow: hidden;
+  background-color: #b5f132;
+  max-height: 0;  
+}
+.sub-contect a {
+  color: rgb(43, 41, 41);
+  text-decoration: none;
+  padding: 20px 30px; 
+  max-width: 1300px;
+}
+.sub-drop {
+  padding: 5px 9px; 
+}
+.sub-drop ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.sub-drop ul li a {
+  display: inline-block;
+  padding: 10px 20px;  
+  font-size: 20px;
+}
+.sub-drop ul li:hover {  
+  background-color: #ffffff;
+}  
+/*---------------------- controling-----------------------*/
+.menu-items:focus {
+  background: #84b816;
+  width: 20px;
+  height: 20px;
+}
+.menu ul li:hover .sub-contect {
+  max-height: 1300px;
+  transition: max-height 0.3s ease-in;
+  -webkit-transition: max-height 0.1s ease-in;
+  -moz-transition: max-height 0.1s ease-in;
+  text-align: center;
+}
+#rmenu {
+  float: right;
+}
+/*---------------------- hero section-----------------------*/
+.hero {
+  background-color: #f8f7fc;
+}
+.hero-section{
+   max-width: 1366px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 80px 20px;
+   padding: 0 5rem;
+   float: left
+}
+.hero-section .content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+.hero-section h1 {
+  color: #84b816;
+  font-size: 2rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.hero-section p {
+  color: #000;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section .btn {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 0rem;
+  border-radius: 2.5rem;
+  outline: none;
+  border: none;
+  background-color: #84b816;
+}
+.btn:hover {
+  background-color: #84b816;
+  cursor: pointer;
+}
+.btn a {
+  font-family: fantasy;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+/*--------features section------*/
+section.features {
+  padding: 2rem 0;
+}
+section.features .fea-sec {
+   max-width: 1366px;
+   margin: 0 auto;
+   padding: 0 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.fea-sec h4 {
+  color: #5e8805;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-family: Verdana,;
+}
+.fea-sec .qualities {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.fea-sec .qualities .quality{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: cornsilk;
+  padding: 1rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+.fea-sec .qualities  :hover {
+  border: 2px solid #70a009; 
+}
+.qualities .quality i {
+  font-size: 3rem;
+  color: #70a009;
+  margin-bottom: 0.1rem;
+}
+.qualities .quality h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.1rem;
+}
+.qualities .quality p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4e547e;
+  margin-bottom: 0.1rem;
+}
+/* compitre section */
+
+.newest-PC {
+  padding-top: 5rem;
+}
+.newest-PC .compitre-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem 0 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.compitre-section h2 {
+  color: #70a009;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.compitre-section .compitres {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+}
+.compitres .compitre {
+  margin: 2rem 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compitre img {
+  margin-bottom: 1rem;
+}
+.compitre h3 {
+  font-size: 1.6rem;
+}
+.compitre-section button {
+  width: 25rem;
+  height: 3rem;
+  margin-bottom: 10rem;
+  align-self: center;
+  background-color: #84b816;
+  border-radius: 1.5rem;
+  font-family: Verdana;
+  border: none;
+}
+/*   section6 contact    */
+.contact-box {
+  margin: 220px 680px;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-bottom: 0px;
+  padding: 40px 60px;
+}
+form {
+  margin: 35px;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+}
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin: 20px 160px;
+}
+/*   footer-section   */
+footer {
+  background-color: #f8f7fc;
+  height: 15vh;
+  margin-top: 0;
+  padding: 1rem ;
+  padding: 15px 90px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+}
+.footer-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.footer-section .socials {
+  margin-bottom: 1rem;
+}
+.footer-section .socials i {
+  padding: 0 0.5rem;
+  font-size: 1.9rem;
+}
+.footer-section .socials i:hover {
+  color: #84b816;
+  cursor: pointer;
+}
+/*-------------Responsive Design-------------*/
